@@ -1576,9 +1576,9 @@ function getMessageFromAnySource<U extends tg.Update>(
 
 type GetMsgId<U extends tg.Update> = GetMsg<U> extends { message_id: number }
   ? number
-  : U extends tg.Update.MessageReactionUpdate
+  : U extends tg.Update.MessageReactionUpdatedUpdate
   ? number
-  : U extends tg.Update.MessageReactionCountUpdate
+  : U extends tg.Update.MessageReactionCountUpdatedUpdate
   ? number
   : undefined
 

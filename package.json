@@ -80,7 +80,7 @@
   },
   "types": "./typings/index.d.ts",
   "dependencies": {
-    "@telegraf/types": "git+https://github.com/alerdenisov/types.git#feat/api-7.0",
+    "@telegraf/types": "git+https://github.com/alerdenisov/telegraf-types.git#6dfcdde6651f282fb623750b035e73c1974be4a0",
     "abort-controller": "^3.0.0",
     "debug": "^4.3.4",
     "mri": "^1.2.0",
